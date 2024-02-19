@@ -1,0 +1,52 @@
+@import url(../global.css);
+
+header {
+    padding: 3rem 20rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    justify-content: space-between;
+
+    color: var(--primary-color);
+}
+
+.logo { 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header img {
+    width: 60px;
+}
+
+header ul {
+    list-style-type: none;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+header ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+.empty-div {
+    width: 100px;
+    height: 50px;
+}
+
+.hero div:nth-child(0) {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
